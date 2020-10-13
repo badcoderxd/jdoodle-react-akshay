@@ -1,0 +1,174 @@
+
+
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.col-1 
+{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+
+.col-1 h2
+{
+    font-size: 54px;
+}
+
+.col-1 h3
+{
+    font-size: 30px;
+    color: #707070;
+    font-weight: 100;
+    margin: 20px 0 10;
+}
+
+.col-1 p
+{
+    font-size: 16px;
+    color: #b7b7b7;
+    font-weight: 100;
+}
+
+.col-1 h4
+{
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+button
+{
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, rgb(113 173 223), rgb(188 215 242));
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+button img
+{
+    width: 30px;
+}
+button:hover{
+    width: 180px;
+    transition: 2s;
+}
+
+.col-1::after{
+    content:'';
+    width: 10px;
+    height: 200px;
+    background: linear-gradient(to right, rgb(113 173 223), rgb(188 215 242));
+    position: absolute;
+    left: -40px;
+    top:8px;
+    
+}
+
+.col-1::after:hover{
+    content:'';
+    width: 1000px;
+    height: 200px;
+    background: linear-gradient(to right, rgb(113 173 223), rgb(188 215 242));
+    position: absolute;
+    left: -40px;
+    top:8px;
+    }
+
+.col-2
+{
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.glass
+{
+    width: 95%;
+}
+  
+
+.social-link img
+{
+    height: 13px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.social-link
+{
+    text-align: center;
+}
+
+.full p i {
+  position: relative;
+  animation: transop 4s infinite;
+}
+
+@keyframes transop {
+  0% {opacity: 100%;}
+  50%{opacity: 50%}
+  100% {opacity: 100%;}
+}
+
+@media only screen and (max-width:700px)
+{
+    
+    .row
+   {
+   flex-direction: column-reverse;
+    margin: 50px 0;
+    }
+    .col-2
+    {
+        flex-basis: 100%;
+        margin-bottom: 50px;
+    }
+    .col-2 .glass
+    {
+        width: 99%;
+    }
+    .col-1
+    {
+        flex-basis: 100%;
+    }
+    .col-1 h2
+    {
+        font-size: 35px;
+    }
+
+    
+}
+
+/*nav ul
+    {
+        width: 100%;
+        background: linear-gradient(to right, #fb5283, #ff3527);
+        position: absolute;
+        top:75px;
+        right: 0;
+        z-index: 2;
+    }
+    nav ul li
+    {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a
+    {
+        color: #fff;
+    }
+    .menu-icon
+    {
+        display: block;
+    }*/

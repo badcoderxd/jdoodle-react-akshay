@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Staatliches&display=swap');
+*
+{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	background-color: #181818;
+	font-family: 'Arimo', sans-serif;
+}
+.logo
+{
+	width: 25px;
+	cursor: pointer;
+	background-color: #212121;
+}
+.nav
+{
+	display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #212121;
+     align-items: center;
+     vertical-align: center;
+     padding: 20px 80px;
+
+    /*border-bottom: 1px solid rgba(211, 211, 211, .3);*/
+}
+
+.nav div
+{
+  vertical-align: center;
+   background-color: #212121;
+}
+.nav div ul li
+{
+	float: left;
+	padding-right: 25px;
+	list-style: none;
+	cursor: pointer;
+	background-color: #212121;
+}
+.nav div ul li p i
+{
+	
+	font-size: 25px;
+	cursor: pointer;
+	
+}
+
+.nav div ul li 
+{
+	font-size: 12px;
+	font-weight: 300;
+	color: White;
+
+
+}
+
+
+
+.nav .space i 
+{
+	border:1.5px solid white;
+	padding: 8px 20px;
+	font-weight: 400;
+	font-size: 10px;
+	color: White;
+	cursor: pointer;
+	font-family: 'Arimo', sans-serif;
+}
+
+
+/*second section style*/
+
+
+
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.col-1 
+{
+    flex-basis: 60%;
+    position: relative;
+    margin-left: 50px;
+}
+
+.col-1 h2
+{
+    font-size: 48px;
+    color: White;
+
+}
+
+.col-1 h3
+{
+    font-size: 15px;
+    color: White;
+    font-weight: 100;
+    margin: 20px 2px;
+    line-height: 1.8;
+}
+
+.col-1 p
+{
+    font-size: 16px;
+    color: #b7b7b7;
+    font-weight: 100;
+}
+
+.col-1 h4
+{
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+button
+{
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #EE2168, #F0582B);
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+button img
+{
+    width: 30px;
+}
+button:hover{
+    width: 180px;
+    transition: 2s;
+}
+
+.col-2
+{
+    position: relative;
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.glass
+{
+    width: 95%;
+}
+
+/*section 4 */
+
+ .wrapper
+    {
+      display:flex;
+     
+      width:100%; 
+      
+      padding: 2rem;
+     
+     
+      justify-content:center; /*flex-start|flex-end|center|space-between|space-around|initial|inherit;*/
+      align-items: center;
+      flex-wrap: wrap;
+
+    }
+
+ .wrapper > div
+    {
+     width:256px;
+     height:280px;
+     
+     
+     margin: 10px;
+     border-radius:10px;
+    
+    }
+    .text-s4 h5
+    {
+      color: #DE5488;
+      text-align: center;
+      padding: 10px;
+    }
+    .text-s4 h1
+    {
+      text-align: center;
+      color: white;
+    }
+
+   .image1
+   {
+     width:256px;
+     border-radius: 12px;
+   }
+   .dgcontent h4
+   {
+    color: #C9781A;
+    margin:10px 0px;
+   }
+   .dgcontent h6
+   {
+    color: white;
+    line-height: 1.5;
+    font-size: 15px;
+   }
+  
+ footer
+ {
+ 	display: flex;
+ 	justify-content: space-around;
+ 	text-align:center; 
+ 	background-color: black;
+ 	color: #636363;
+ 	padding: 20px 40px;
+ 	width:100%;
+ }
+ footer div,footer div p
+ {
+ 	background-color: black;
+ }
+
+ footer > div
+    {
+     width:100%;
+     margin: 10px;
+     border-radius:10px;
+ }
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color: white;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.containerconsole {
+  border-radius: 5px;
+  background-color: black;
+  padding: 60px;
+}
+form
+{
+	padding: 25px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+    
+
+
+@media only screen and (max-width:700px)
+{
+    
+    .row
+   {
+   flex-direction: column-reverse;
+    margin: 50px 0;
+    }
+    .col-2
+    {
+        flex-basis: 100%;
+        margin-bottom: 50px;
+    }
+    .col-2 .glass
+    {
+        width: 99%;
+    }
+    .col-1
+    {
+        flex-basis: 100%;
+    }
+    .col-1 h2
+    {
+        font-size: 35px;
+	}
+	.col-25, .col-75 {
+		width: 100%;
+		margin-top: 0;
+	}
+
+    
+}
+
+/*nav ul
+    {
+        width: 100%;
+        background: linear-gradient(to right, #fb5283, #ff3527);
+        position: absolute;
+        top:75px;
+        right: 0;
+        z-index: 2;
+    }
+    nav ul li
+    {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a
+    {
+        color: #fff;
+    }
+    .menu-icon
+    {
+        display: block;
+    }*/
